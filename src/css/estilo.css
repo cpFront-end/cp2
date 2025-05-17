@@ -182,3 +182,49 @@ h2 {
     justify-content: space-between;
     flex-wrap: nowrap;
 }
+
+.imagem_sushi img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 8px 8px #300606d2;
+}
+
+.info_sushi {
+    flex: 1;
+    color: white;
+}
+
+.nome_sushi {
+    font-family: 'cardapio', 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.descricao_sushi {
+    font-size: 1.1rem;
+    margin: 5px 0 0 0;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+}
+
+
+.numeros {
+    font-size: 1.5rem;
+    color: #e63946;
+    white-space: nowrap;
+    font-family: 'italic', 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.final {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #c4ad95;
+    font-family: 'cardapio', 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
