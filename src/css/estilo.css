@@ -115,3 +115,70 @@ header nav ul {
 header nav li {
     padding: 5px;
 }
+
+header nav a {
+    margin-top: 0;
+    text-decoration: none;
+    color: #9b8367;
+    font-weight: bold;
+    padding: 2px 24px;
+    text-align: center;
+    border: 2px solid #9b8367;
+    transition: background 0.5s;
+    font-size: 1.5em;
+    display: inline-block;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+header nav a:hover {
+    background-color: #9b8367;
+    color: #4b0b0b;
+}
+
+main {
+    max-width: 900px;
+    margin: 100px auto 80px auto; /* top, right/left, bottom */
+    padding: 60px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.9, 0.9);
+    border: 3px solid #9b8367;
+    color: white;
+    background-color: #4B0B0B;
+}
+
+
+.main_contato {
+    font-size: 1.1rem;
+    margin-bottom: 3em;
+    word-spacing: 0.15em;
+}
+
+h1 {
+    text-align: center;
+    color: #9b8367;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'cardapio';
+    font-weight: 200;
+    font-size: 2.3rem;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+}
+
+.card {
+    background-color: #4b0b0baf;
+    border: 1px solid #3a0000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
